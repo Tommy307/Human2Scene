@@ -9,6 +9,9 @@
 
 <sup>1</sup>the School of Computer Science and Engineering, National Engineering Research Center of Digital Life, Sun Yat-sen University, China
 
+</div>
+<br><br>
+
 We propose the first indoor scene point cloud dataset featuring clothed human called Human2Scene, that directly positions clothed human models into existing point cloud dataset. In an extensive analysis, we validate the benefits of training on synthetic data on multiple point cloud segmentation baselines and tasks. 
 
 
