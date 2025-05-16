@@ -14,8 +14,16 @@
 
 We propose the first indoor scene point cloud dataset featuring clothed human called Human2Scene, that directly positions clothed human models into existing point cloud dataset. In an extensive analysis, we validate the benefits of training on synthetic data on multiple point cloud segmentation baselines and tasks. 
 
+Here are some examples of our synthetic point clouda dataset:
 
+![Examples of the synthetic data](./img/dataset_example_images_00.png)
 
+Existing synthesis methods primarily aim to make the human models in the synthetic data appear more visually natural. 
+
+In contrast, our work focuses on a different goal: **we aim to increase the complexity and diversity of the synthetic data**. This is intended to enhance the generalization performance of scene point cloud semantic and instance segmentation models trained on the synthetic dataset.
+
+## Data download
+The dataset could be downloaded through Baidu Netdisk [https://pan.baidu.com/s/1_aFk1AaO1YIbBiKhskfq6w?pwd=rac2](https://pan.baidu.com/s/1_aFk1AaO1YIbBiKhskfq6w?pwd=rac2).
 
 ## Data structure
 We have applied our synthetic method to the large indoor scene point cloud dataset ScanNet, and arranged the result follow the data structure of ScanNet. 
@@ -35,6 +43,10 @@ While the data group of training and validation are made from ScanNet, the test 
 
 ```
 
+# TODO
+- Add point cloud semantic & instance segmentation code base to the repository.
+- Provide pretrained segmentation models analysed in the experiment part.
+
 # Acknowledgements
 
-This repository is based on the [ScanNet](https://github.com/ScanNet/ScanNet) and [LiDAR-Net](http://lidar-net.njumeta.com) data base.
+This repository is based on the [ScanNet](https://github.com/ScanNet/ScanNet) and [LiDAR-Net](http://lidar-net.njumeta.com) dataset.
